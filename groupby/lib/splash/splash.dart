@@ -1,0 +1,1 @@
+export 'package:bigdeals2/splash/splash_screen.dart';

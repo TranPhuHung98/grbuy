@@ -1,0 +1,9 @@
+export 'package:bigdeals2/tabs/profile_tab/profile.dart';
+export 'package:bigdeals2/tabs/tabs_screen.dart';
+export 'package:bigdeals2/tabs/home_tab/home.dart';
+export 'package:bigdeals2/welcome/welcome.dart';
+export 'package:bigdeals2/search/search.dart';
+export 'package:bigdeals2/tabs/cart_tab/cart.dart';
+export 'package:bigdeals2/tabs/model/model.dart';
+export 'package:bigdeals2/tabs/profile_tab/widget/widget.dart';
+export 'package:bigdeals2/api/api.dart';
