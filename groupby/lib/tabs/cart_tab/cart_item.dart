@@ -55,7 +55,7 @@ class _CartItemState extends State<CartItem> {
                       Text(
                         parse.parseNumber(widget.product.price_deal.toString()),
                         style: TextStyle(
-                            color: Color.fromARGB(150, 7, 239, 204),
+                            color: Color.fromARGB(180, 11, 204, 200),
                             fontWeight: FontWeight.w900),
                       ),
                       Text(parse.parseNumber(widget.product.price.toString()),

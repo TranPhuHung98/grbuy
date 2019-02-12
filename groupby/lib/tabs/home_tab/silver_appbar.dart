@@ -12,7 +12,7 @@ class SilverAppBar extends StatelessWidget {
       automaticallyImplyLeading: true,
       forceElevated: true,
       primary: true,
-      backgroundColor: Color.fromARGB(150, 7, 239, 204),
+      backgroundColor: Color.fromARGB(180, 11, 204, 200),
       expandedHeight: 100.0,
       title: Container(
         margin: EdgeInsets.only( bottom: 20),

@@ -18,7 +18,7 @@ class _ViewMoreState extends State<ViewMore> {
     // TODO: implement build
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(150, 7, 239, 204),
+          backgroundColor: Color.fromARGB(180, 11, 204, 200),
           title: Text(widget.categaryItem.name),
         ),
         body: Container(

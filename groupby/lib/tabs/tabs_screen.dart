@@ -179,8 +179,8 @@ class _TabsScreenState extends State<TabsScreen>
                 height: 60.0,
                 child: TabBar(
                   controller: controller,
-                indicatorColor: Color.fromARGB(170, 83, 219, 219),
-                  labelColor: Color.fromARGB(170, 83, 219, 219),
+                indicatorColor: Color.fromARGB(180, 11, 204, 200),
+                  labelColor: Color.fromARGB(180, 11, 204, 200),
                   unselectedLabelColor: Colors.grey,
                   tabs: <Tab>[
                     Tab(
@@ -205,11 +205,11 @@ class _TabsScreenState extends State<TabsScreen>
                     ),
                     Tab(
                       icon: Container(
-                        // child: Icon(
-                        //   Icons.perm_identity,
-                        //   size: 28,
-                        // ),
-                        child: Image.asset('images/logo_account.png',height: 21,width: 21),
+                        child: Icon(
+                          Icons.person,
+                          size: 28,
+                        ),
+                        // child: Image.asset('images/logo_account.png',height: 21,width: 21),
                         margin: EdgeInsets.only(bottom: 0.0),
                       ),
                       text: "Tài khoản",

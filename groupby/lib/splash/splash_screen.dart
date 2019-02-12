@@ -22,7 +22,7 @@ class SplashScreenState extends State<SplashScreen> {
     //     count = 1;
     //   });
     // } else
-      Navigator.of(context).pushReplacementNamed("/");
+    Navigator.of(context).pushReplacementNamed("/");
     await sharedPreferences.setInt('count', count);
   }
 
@@ -38,8 +38,12 @@ class SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Center(
         child: Container(
-          margin: EdgeInsets.all(15),
-          child: Image.asset("images/stdio.jpg",fit: BoxFit.cover,)),
+          child: Image.asset("images/splash.png"),
+          margin: EdgeInsets.only(left: 20, right: 20),
+        ),
+        // child: Container(
+        //   margin: EdgeInsets.all(15),
+        //   child: Image.asset("images/splash.png",fit: BoxFit.cover,)),
       ),
     );
   }

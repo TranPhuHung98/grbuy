@@ -39,7 +39,7 @@ class AddAddressState extends State<AddAddress> {
       appBar: AppBar(
         elevation: 0,
         centerTitle: true,
-        backgroundColor: Color.fromARGB(170, 0, 204, 204),
+        backgroundColor: Color.fromARGB(180, 11, 204, 200),
         title: Text('Thêm địa chỉ',style: TextStyle(fontSize: 15,),
       ),),
       body: Container(
@@ -70,7 +70,7 @@ class AddAddressState extends State<AddAddress> {
               margin: EdgeInsets.only(top: 20.0,left: 85.0,right: 85.0),
               width: 60,
               height: 50,
-              color: Color.fromARGB(170, 0, 204, 204),
+              color: Color.fromARGB(180, 11, 204, 200),
               child: MaterialButton(
               elevation: 0,
               // height: 50.0,

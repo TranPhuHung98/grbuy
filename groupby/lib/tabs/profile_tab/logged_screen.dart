@@ -37,7 +37,7 @@ class LoggedScreenState extends State<LoggedScreen> {
      appBar: AppBar(
        centerTitle: true,
        elevation: 0,
-       backgroundColor: Color.fromARGB(180, 83, 219, 219),
+       backgroundColor: Color.fromARGB(180, 11, 204, 200),
        title: Text('Tài Khoản',style: TextStyle(fontSize: 15),),
      ),
      body: ListView(

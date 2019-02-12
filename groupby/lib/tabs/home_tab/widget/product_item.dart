@@ -19,7 +19,7 @@ class ModelProductsItem extends StatefulWidget{
 }
 class ModelProductsItemState extends State<ModelProductsItem> {
   ParseNumber  parse = ParseNumber() ;
-  var _color = Color.fromARGB(180, 83, 219, 219);
+  var _color = Color.fromARGB(180, 11, 204, 200);
   @override
   Widget build(BuildContext context) => StoreConnector<AppStateCart, ViewModel>(
     converter: (Store<AppStateCart> store) => ViewModel.create(store),

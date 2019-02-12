@@ -104,7 +104,7 @@ class ForgotPassScreen extends StatefulWidget {
 }
 
 class _ForgotPassScreenState extends State<ForgotPassScreen> {
-  Color colorIsChoosed = Color.fromARGB(180, 83, 219, 219);
+  Color colorIsChoosed = Color.fromARGB(180, 11, 204, 200);
     TextEditingController _emailTextController;
 
   @override

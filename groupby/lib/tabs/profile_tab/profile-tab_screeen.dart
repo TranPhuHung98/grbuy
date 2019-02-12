@@ -31,7 +31,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   String title = "Đăng Nhập";
   bool login = true;
-  Color colorIsChoosed = Color.fromARGB(180, 83, 219, 219);
+  Color colorIsChoosed = Color.fromARGB(180, 11, 204, 200);
   Color colorIsntChoosed = Colors.white;
   var _padding = EdgeInsets.only(left: 10.0, right: 10.0);
   int _radioValue1 = -1;

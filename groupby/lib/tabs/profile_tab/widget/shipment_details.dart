@@ -58,7 +58,7 @@ class ShipmentDetailsState extends State<ShipmentDetails> {
             appBar: AppBar(
               centerTitle: true,
               elevation: 0,
-              backgroundColor: Color.fromARGB(170, 0, 204, 204),
+              backgroundColor: Color.fromARGB(180, 11, 204, 200),
               title: Text('Xác thực và tạo đơn hàng',style: TextStyle(fontSize: 15),),
             ),
             body: Column(
@@ -123,7 +123,7 @@ class ShipmentDetailsState extends State<ShipmentDetails> {
                       height: 40.0,
                       minWidth: double.infinity,
                       elevation: 0,
-                      color: Color.fromARGB(170, 0, 204, 204),
+                      color: Color.fromARGB(180, 11, 204, 200),
                       onPressed: () {
                         print(widget.address.receiver);
                         print(widget.address.phone_number);

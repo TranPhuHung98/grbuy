@@ -38,7 +38,7 @@ class CartScreenState extends State<CartScreen> {
               appBar: AppBar(
                 centerTitle: true,
                 elevation: 0,
-                backgroundColor: Color.fromARGB(170, 83, 219, 219),
+                backgroundColor: Color.fromARGB(180, 11, 204, 200),
                 title: Text('Giỏ Hàng', style: TextStyle(fontSize: 15)),
               ),
               bottomNavigationBar: Container(
@@ -69,7 +69,7 @@ class CartScreenState extends State<CartScreen> {
                             ),
                             height: 40.0,
                             // minWidth: double.infinity,
-                            color: Color.fromARGB(170, 83, 219, 219),
+                            color: Color.fromARGB(180, 11, 204, 200),
                             onPressed: () {
                               Navigator.push(
                                   context,
@@ -137,20 +137,6 @@ class CartScreenState extends State<CartScreen> {
                                 color: Colors.grey,fontSize: 12
                               ),),
                             ),
-                            Container(
-                              child: RaisedButton(
-                                onPressed: null,
-                                  // ()=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (_)=>TabsScreen())),
-                                child: Text('Tiếp tục mua sắm',style: TextStyle(color: Colors.white,fontSize: 13),),
-                                color: Color.fromARGB(170, 83, 219, 219),
-                                disabledColor: Color.fromARGB(170, 83, 219, 219),
-                                elevation: 0,
-                                // highlightColor: ,
-                              ),
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(8)
-                              ),
-                            )
                           ],
                         ),
                       ),

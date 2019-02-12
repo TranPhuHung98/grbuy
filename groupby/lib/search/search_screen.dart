@@ -85,7 +85,7 @@ class SearchScreenState extends State<SearchScreen> {
               preferredSize: Size.fromHeight(100.0), // here the desired height
               child: AppBar(
                 elevation: 0,
-                backgroundColor: Color.fromARGB(170, 0, 204, 204),
+                backgroundColor: Color.fromARGB(180, 11, 204, 200),
                 centerTitle: true,
                 title: Container(
                   // margin: EdgeInsets.only(bottom: 10),

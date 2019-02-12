@@ -40,7 +40,7 @@ class ChangePassWordState extends State<ChangePassWord> {
       appBar: AppBar(
         centerTitle: true,
         elevation: 0,
-        backgroundColor: Color.fromARGB(170, 0, 204, 204),
+        backgroundColor: Color.fromARGB(180, 11, 204, 200),
         title: Text('Thay đổi mật khẩu',style: TextStyle(fontSize: 15),),
       ),
       body: Container(
@@ -80,7 +80,7 @@ class ChangePassWordState extends State<ChangePassWord> {
                 height: 50.0,
                 minWidth: 150.0,
                 child: Text('Thay đổi', style: TextStyle(fontSize: 15.0,color: Colors.white),),
-                color: Color.fromARGB(170, 0, 204, 204),
+                color: Color.fromARGB(180, 11, 204, 200),
                 onPressed: (() {
                   if (_confirmPass.text == _newPass.text)
                     widget.changePass

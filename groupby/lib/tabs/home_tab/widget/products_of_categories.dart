@@ -38,7 +38,7 @@ class _ProductsOfCategoriesState extends State<ProductsOfCategories> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Color.fromARGB(150, 7, 239, 204),
+          backgroundColor: Color.fromARGB(180, 11, 204, 200),
           title: Text(widget.name_categories,style: TextStyle(fontSize: 15.0),),
         ),
         body: Container(

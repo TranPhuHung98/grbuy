@@ -160,7 +160,7 @@ class ProductDetailsState extends State<ProductDetails> {
       appBar: AppBar(
         elevation: 0,
         centerTitle: true,
-        backgroundColor: Color.fromARGB(180, 83, 219, 219),
+        backgroundColor: Color.fromARGB(180, 11, 204, 200),
         title: Text(widget.product.name,style: TextStyle(fontSize: 13)),
       ),
 
@@ -199,7 +199,7 @@ class ProductDetailsState extends State<ProductDetails> {
                 Text(
                   parse.parseNumber(widget.product.price_deal.toString()),
                   style: TextStyle(
-                      color: Color.fromARGB(150, 7, 239, 204),
+                      color: Color.fromARGB(180, 11, 204, 200),
                       fontWeight: FontWeight.w700,
                       fontSize: 15.0),
                 ),
@@ -233,10 +233,10 @@ class ProductDetailsState extends State<ProductDetails> {
               margin: EdgeInsets.only(left: 10.0),
               child: Text("Chi tiết sản phẩm",style: TextStyle(fontSize: 13.0,fontWeight: FontWeight.w600),)),
           Divider(),
-          // Container(
-          //     padding: EdgeInsets.all(10),
-          //     child: HtmlView(data: widget.product.description)
-          // ),
+          Container(
+              padding: EdgeInsets.all(10),
+              child: HtmlView(data: widget.product.description)
+          ),
         ],
       ),
       bottomNavigationBar: Material(
@@ -245,7 +245,7 @@ class ProductDetailsState extends State<ProductDetails> {
           child: Text('Mua Ngay',style: TextStyle(color: Colors.white,fontSize: 15),),
           height: 50.0,
           minWidth: double.infinity,
-          color: Color.fromARGB(170, 0, 204, 204),
+          color: Color.fromARGB(180, 11, 204, 200),
           onPressed: () {
             widget.checkProduct
                 .postCheckProduct(
