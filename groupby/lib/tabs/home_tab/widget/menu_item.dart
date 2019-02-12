@@ -64,7 +64,7 @@ class _MenuItemState extends State<MenuItem> {
           padding: const EdgeInsets.only(top: 5.0, bottom: 5.0),
           child: Text(
             category.name,
-            style: TextStyle(fontWeight: FontWeight.w700, fontSize: 10.0),
+            style: TextStyle(fontWeight: FontWeight.w500, fontSize: 11.0),
           ),
         )
       ],
@@ -76,12 +76,16 @@ class _MenuItemState extends State<MenuItem> {
         delegate: SliverChildListDelegate([
       SingleChildScrollView(
         scrollDirection: Axis.horizontal,
-        child: Row(
-            children: categories.map((category) {
-          return Container(
-            child: _buildButtonMenu(category),
-          );
-        }).toList()),
+        child: Container(
+          padding: EdgeInsets.only(bottom: 10),
+          color: Colors.white,
+          child: Row(
+              children: categories.map((category) {
+            return Container(
+              child: _buildButtonMenu(category),
+            );
+          }).toList()),
+        ),
       )
     ]));
   }

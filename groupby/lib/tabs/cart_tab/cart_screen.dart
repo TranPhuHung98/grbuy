@@ -99,42 +99,42 @@ class CartScreenState extends State<CartScreen> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Stack(
-                              alignment: Alignment(0, 0),
-                              children: <Widget>[
-                                SizedBox(
-                                  height: 200,
-                                  width: 200,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                        color:
-                                            Color.fromARGB(170, 192, 242, 242),
-                                        borderRadius:
-                                            BorderRadius.circular(150)),
-                                    // color: Color.fromARGB(170, 192, 242, 242),
-                                  ),
-                                ),
-                                SizedBox(
-                                  height: 155,
-                                  width: 155,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                        color:
-                                            Color.fromARGB(170, 149, 233, 233),
-                                        borderRadius:
-                                            BorderRadius.circular(150)),
-                                    // color: Color.fromARGB(170, 192, 242, 242),
-                                  ),
-                                ),
-                                Container(child: Image.asset('images/logo_cart.png'),
-                                height: 90,
-                                width: 90,)
-                              ],
-                            ),
+                            // Stack(
+                            //   alignment: Alignment(0, 0),
+                            //   children: <Widget>[
+                            //     SizedBox(
+                            //       height: 200,
+                            //       width: 200,
+                            //       child: Container(
+                            //         decoration: BoxDecoration(
+                            //             color:
+                            //                 Color.fromARGB(170, 192, 242, 242),
+                            //             borderRadius:
+                            //                 BorderRadius.circular(150)),
+                            //         // color: Color.fromARGB(170, 192, 242, 242),
+                            //       ),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 155,
+                            //       width: 155,
+                            //       child: Container(
+                            //         decoration: BoxDecoration(
+                            //             color:
+                            //                 Color.fromARGB(170, 149, 233, 233),
+                            //             borderRadius:
+                            //                 BorderRadius.circular(150)),
+                            //         // color: Color.fromARGB(170, 192, 242, 242),
+                            //       ),
+                            //     ),
+                            //     // Container(child: Image.asset('images/logo_cart.png'),
+                            //     // height: 90,
+                            //     // width: 90,)
+                            //   ],
+                            // ),
                             Padding(
                               padding: const EdgeInsets.only(top: 15.0,bottom: 25),
-                              child: Text('Không có sản phẩm nào trong giỏ hàng!',style: TextStyle(
-                                color: Colors.grey,fontSize: 12
+                              child: Text('Không có sản phẩm nào trong giỏ hàng',style: TextStyle(
+                                color: Colors.black,fontSize: 13
                               ),),
                             ),
                           ],

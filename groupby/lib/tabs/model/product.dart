@@ -12,6 +12,7 @@ class ProductsItem {
   int amount_target;
   int amount_sale;
   int quantity ;
+  String brand;
   // List<ImageProductDetail> image_list;
     // List<String> image_list;
   
@@ -26,6 +27,7 @@ class ProductsItem {
       this.amount_sale,
       this.description,
       this.current_deal_id,
+      this.brand
       // this.image_list
       });
   factory ProductsItem.internalFromJson(Map jsonMap) {
@@ -40,6 +42,7 @@ class ProductsItem {
       amount_sale: jsonMap["amount_sale"] as  int,
       description: jsonMap["description"] as String,
       current_deal_id: jsonMap["current_deal_id"] as int ,
+      brand: jsonMap["brand"] as String,
       // image_list :(jsonMap["image_list"] as List<String>)
       // image_list: ((jsonMap["image_list"]) as List<dynamic>)
       // .map<String>((value) => value. toString())

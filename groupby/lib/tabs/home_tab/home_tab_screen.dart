@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   // margin: EdgeInsets.only(bottom: 10),
                   child: Text(
                     'GroupBuy',
-                    style: TextStyle(fontSize: 15.0),
+                    style: TextStyle(fontSize: 14.0,fontWeight: FontWeight.w400),
                   ),
                 ),
                 flexibleSpace: Container(
@@ -59,8 +59,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           Icons.search,
                           size: 20.0,
                         ),
-                        hintText: 'Tìm kiếm...',
-                        hintStyle: TextStyle(fontSize: 12.0),
+                        hintText: 'Tìm kiếm',
+                        hintStyle: TextStyle(fontSize: 12.0,fontWeight: FontWeight.w700),
                         contentPadding: EdgeInsets.only(top:6,left: 5),
                       ))),
                 ),

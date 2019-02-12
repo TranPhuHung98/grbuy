@@ -74,8 +74,11 @@ class _ListItemState extends State<ListItem> {
               );
             }).toList(),
           );
-        return Column(
-            crossAxisAlignment: CrossAxisAlignment.start, children: children);
+        return Container(
+          color: Colors.grey[100],
+          child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start, children: children),
+        );
       }, childCount: categary?.length ?? 0),
     );
   }
@@ -104,9 +107,9 @@ class _ListItemState extends State<ListItem> {
             ),
             SliverList(
                 delegate: SliverChildListDelegate([
-              Divider(
-                // height: 10.0,
-              )
+              // Divider(
+              //   // height: 10.0,
+              // )
             ])),
             _buildItemList()
           ],

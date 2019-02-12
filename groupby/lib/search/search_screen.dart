@@ -85,13 +85,13 @@ class SearchScreenState extends State<SearchScreen> {
               preferredSize: Size.fromHeight(100.0), // here the desired height
               child: AppBar(
                 elevation: 0,
-                backgroundColor: Color.fromARGB(180, 11, 204, 200),
+                backgroundColor:  Color.fromARGB(180, 11, 204, 200),
                 centerTitle: true,
                 title: Container(
                   // margin: EdgeInsets.only(bottom: 10),
                   child: Text(
                     'Tìm kiếm sản phẩm',
-                    style: TextStyle(fontSize: 15.0),
+                    style: TextStyle(fontSize: 14.0,fontWeight: FontWeight.w400),
                   ),
                 ),
                 flexibleSpace: Container(

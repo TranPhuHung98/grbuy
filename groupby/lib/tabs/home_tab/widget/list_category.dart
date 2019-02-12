@@ -26,7 +26,7 @@ class ListCategoryState extends State<ListCategory> {
                 padding: EdgeInsets.only(left: 5.0),
                 child: Text(
                   widget.categary.name,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 14),
                 ),
               ),
               MaterialButton(
@@ -38,7 +38,7 @@ class ListCategoryState extends State<ListCategory> {
                         style: TextStyle(
                             color: Colors.blue,
                             fontWeight: FontWeight.w400,
-                            fontSize: 13),
+                            fontSize: 11.5),
                       ),
                       Icon(
                         Icons.chevron_right,
@@ -64,6 +64,7 @@ class ListCategoryState extends State<ListCategory> {
           ),
           Container(
             padding: EdgeInsets.only(right: 10.0),
+            height: 100,
             child: Card(
               child: InkWell(
                 onTap: () async {

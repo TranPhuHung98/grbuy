@@ -38,7 +38,7 @@ class SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Center(
         child: Container(
-          child: Image.asset("images/splash.png"),
+          child: Image.asset("images/ic_laucher.png"),
           margin: EdgeInsets.only(left: 20, right: 20),
         ),
         // child: Container(
